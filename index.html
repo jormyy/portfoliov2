@@ -14,14 +14,13 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/507cad3bb7.js" crossorigin="anonymous"></script>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 </head>
 
 <body>
     <!-- navigation menu -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Jeremy</a>
+            <a class="navbar-brand text-white" href="#">Jeremy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,19 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link text-white" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link text-white" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link text-white" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
                 </ul>        
             </div>
@@ -224,18 +223,13 @@
 
             <div class="row mt-4">
                 <div class="col-lg-6">
-                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
-                        <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/view?zoom=13¢er=38.5382,-121.7617&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                        </div>
-                        <a class="googlemaps-made" rel="nofollow" href="https://kbj9qpmy.com/bp" id="enable-maps-data">Broadband Providers</a>
-                        <style>#display-google-map img{max-height:none;max-width:none!important;background:none!important;}</style>
-                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.7352960937237!2d-121.76378037408037!3d38.53986957180255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ead37f7489fa3f%3A0xecbfbb24087e8334!2sUniversity%20of%20California%2C%20Davis!5e0!3m2!1sen!2sus!4v1693455252761!5m2!1sen!2sus" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-                <div class="col-lg-6">
-                    <!-- form fields -->
+                <div class="col-lg-6 text-center">
+                    <!-- hubspot form -->
+                    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
                     <script>
                     hbspt.forms.create({
                         region: "na1",
@@ -243,13 +237,24 @@
                         formId: "aef5f49d-e188-4746-997d-2e53293dd70a"
                     });
                     </script>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
                     
                 </div>
 
             </div>
         </div>
     </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.linkedin.com/in/jeremy1112ha/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/jormyy" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/jeremyha03/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
     
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
