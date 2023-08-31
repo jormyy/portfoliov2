@@ -41,3 +41,14 @@ progress[value] {
     width: 250px;
     height: 20px;
 }
+
+/* spacing */
+#about, #skills, #projects, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+/* contact */
+#contact {
+    padding-bottom: 4rem;
+}
