@@ -33,3 +33,11 @@
 .imageAboutPage {
     width: 50%;
 }
+
+/* progress bar */
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 20px;
+}
